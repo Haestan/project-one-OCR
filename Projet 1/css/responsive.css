@@ -1,0 +1,103 @@
+    @media all and (max-width: 1024px) {
+    body {
+      overflow-x: hidden;
+    }
+    /*RESPONSIVE HEADER*/
+    .flex-container-top {
+      flex-direction: column;
+    }
+    header {
+      height: 130px;
+    }
+    header img {
+      padding: 20px 0px 20px 5px;
+      margin-top: 15px;
+      height: 30px;
+    }
+    nav {
+      font-size: 0.9em;
+      flex-wrap: wrap;
+      height: 100px;
+      justify-content: center;
+      margin-top: -15px;
+    }
+    nav li {
+      line-height: 40px;
+      text-align: center;
+    }
+    nav li:hover {
+      border-top: none;
+      ;
+    }
+    nav li a:hover {
+      color: #4D9EBD;
+    }
+    /*END RESPONSIVE HEADER*/
+    /*RESPONSIVE SLIDER*/
+    #slider {
+      display: none;
+    }
+    /*END RESPONSIVE SLIDER*/
+    /*RESPONSIVE SERVICES*/
+    .section-content {
+      position: static;
+      font-size: 0.9em;
+      margin-top: 150px;
+      width: 100%;
+      height: 300px;
+      text-align: center;
+      background-image: url(../images/slider/bg01.jpg);
+      background-size: cover;
+      background-position: center;
+      border-top: 3px solid #4D9EBD;
+      border-bottom: 3px solid #4D9EBD;
+    }
+    .section-content h4 {
+      margin-left: 15%;
+    }
+    .section-content .button {
+      display: none;
+    }
+    .section-services {
+      text-align: center;
+    }
+    .main-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .design-content img {
+      float: none;
+    }
+    .design-content p {
+      text-align: justify;
+    }
+    /*END RESPONSIVE SERVICES*/
+    /*RESPONSIVE PORTFOLIO*/
+    .button-port span {
+      margin-top: 25px;
+      text-align: center;
+    }
+    .section-cover {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    /*END RESPONSIVE PORTFOLIO*/
+    /*RESPONSIVE CONTACT*/
+    iframe {
+      display: none;
+    }
+    .container {
+      height: auto;
+      overflow: hidden;
+      top: 0px;
+      left: 0px;
+      width: 80%;
+      margin: 0px auto;
+      position: relative;
+      text-align: center;
+      /* On centre les éléments */
+      margin-top: -150px;
+    }
+    /*END RESPONSIVE CONTACT*/
